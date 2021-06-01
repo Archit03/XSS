@@ -89,5 +89,5 @@ def scan_xss(url):
 
 
 if __name__ == "__main__":
-    url = "https://graphql.acorns.com"
+    url = "http://www.example.com/"
     print(scan_xss(url))
